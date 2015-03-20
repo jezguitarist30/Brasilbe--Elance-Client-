@@ -1,0 +1,576 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+
+@model HttpWebRequestProject.Models.UserModel
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BRAZILIAN SINGLES - Chat & Dating</title>
+    <!-- META TAGS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!-- CSS FILES -->
+    <link href="~/Content/normalize.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/style.css" />
+    <link href="~/Content/media.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/scrollbar.css" rel="stylesheet" type="text/css" />
+    <!-- JS FILES -->
+    <script type="text/javascript" src="~/Scripts/modernizr.custom.26633.js"></script>
+    <script src="~/Scripts/jquery.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.queryloader2.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="~/Content/fallback.css" />
+    <![endif]-->
+</head>
+
+<body>
+    <div id="ascensorBuilding" class="page-loading">
+        <!-- FIRST PAGE -->
+        <section>
+            <!-- LEFT COLUMN -->
+            <div class="left-content">
+                <div class="online-header">
+                    <h1>1000s Singles Online Now!</h1>
+                </div>
+                <!-- ANIMATED IMAGE GRID -->
+                <div id="ri-grid" class="ri-grid">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/01.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/02.jpg" alt="" />
+                                <p>Born In Bahia</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/03.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/04.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/05.jpg" alt="" />
+                                <p>Born In Brasilia</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/06.jpg" alt="" />
+                                <p>Born In Sao Paulo</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/07.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/08.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/09.jpg" alt="" />
+                                <p>Born In Rio Grande do Sul</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/10.jpg" alt="" />
+                                <p>Born In Minas Gerais</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/11.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/12.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/13.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/14.jpg" alt="" />
+                                <p>Born In Parana</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/15.jpg" alt="" />
+                                <p>Born In Sao Paolo</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/16.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/17.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/18.jpg" alt="" />
+                                <p>Born In Espirito Santo</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/19.jpg" alt="" />
+                                <p>Born In Bahia</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/20.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/21.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/22.jpg" alt="" />
+                                <p>Born In Parana</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/23.jpg" alt="" />
+                                <p>Born In Pernambuco</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/24.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/25.jpg" alt="" />
+                                <p>Born In Pernambuco</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/26.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/27.jpg" alt="" />
+                                <p>Born In Sao Paolo</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/28.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/29.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/30.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/31.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/32.jpg" alt="" />
+                                <p>Born In Sao Paolo</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/33.jpg" alt="" />
+                                <p>Born In Parana</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/34.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/35.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/36.jpg" alt="" />
+                                <p>Born In Sao Paolo</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/37.jpg" alt="" />
+                                <p>Born In Parana</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/38.jpg" alt="" />
+                                <p>Born In Espírito Santo</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/39.jpg" alt="" />
+                                <p>Born In Sao Paolo</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/40.jpg" alt="" />
+                                <p>Born In Rio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/41.jpg" alt="" />
+                                <p>Born In Parana</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="~/images/grid/42.jpg" alt="" />
+                                <p>Born In Sao Paolo</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- RIGHT COLUMN -->
+            <div class="right-content">
+                <header>
+                    <h1>BRAZILIAN SINGLES</h1>
+                </header>
+                <!-- FORMS -->
+                <div id="middle">
+                    <div id="form_wrapper" class="form_wrapper">
+                        
+                        @using (Html.BeginForm("Register", "Home", FormMethod.Post, new {@class = "register active", @name= "register", @id = "form-register"}))
+                        {
+                            @Html.AntiForgeryToken()
+                            
+
+                            <h3>JOIN US FOR FREE TODAY!</h3>
+                            <div class="column">
+                                <div>
+                                    @Html.TextBoxFor(x => x.FirstName, new { @placeholder = "Fist Name"})
+                                </div>
+                                <div>
+                                    @Html.TextBoxFor(x => x.Email, new { @placeholder = "Email" })  
+                                </div>
+                            </div>
+                            <div class="column c-right">
+                                <div>
+                                    @Html.TextBoxFor(x => x.LastName, new { @placeholder = "Last Name" })                                      
+                                </div>
+                                <div>
+                                    @Html.PasswordFor(x => x.Password, new { @placeholder = "Password" })
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <input type="submit" value="Register" />
+                                <a href="#" data-rel="login" class="linkform">You have an account already? Log in here</a>
+                                <div class="clear"></div>
+                            </div>
+                        }
+
+
+                        @using (Html.BeginForm("Login", "Home", FormMethod.Post, new {@class = "login", @name = "login", @id = "form-login"}))
+                        {
+                            @Html.AntiForgeryToken()
+
+                            <h3>Login</h3>
+                            <div class="column2">
+                                <div>
+                                    @Html.TextBoxFor(x => x.Email, new {@placeholder = "Email"})
+                                </div>
+                                <div>
+                                    @Html.PasswordFor(x => x.Password, new {@placeholder = "Password"})
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <input type="submit" value="Login" />
+                                <a href="#" data-rel="register" class="linkform">YOU DON'T HAVE AN ACCOUNT? REGISTER HERE</a>
+                                <a href="#" data-rel="forgot_password" class="linkform">Forgot your password?</a>
+                                <div class="clear"></div>
+                            </div>
+
+                        }
+                      
+                        <form class="forgot_password">
+                            <h3>Forgot Password</h3>
+                            <div class="column2">
+                                <input type="text" placeholder="Username or Email" />
+                            </div>
+                            <div class="bottom">
+                                <input type="submit" value="Send reminder" />
+                                <a href="#" data-rel="login" class="linkform">Suddenly remembered? Log in here</a>
+                                <a href="#" data-rel="register" class="linkform">You don't have an account? Register here</a>
+                                <div class="clear"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- DETAILS BUTTON -->
+            <div class="details">
+                <a class="ascensorLink ascensorLink2">
+                    <h3>Click for Details</h3>
+                </a>
+            </div>
+        </section>
+        <!-- SECOND PAGE -->
+        <section>
+            <!-- VERTICAL TEXT -->
+            <div class="info">
+                <h3>Start Meeting New People Today !</h3>
+            </div>
+            <!-- PAGE CONTENT -->
+            <div class="wrapper">
+                <div id="scrollbar" class="wrap">
+                    <div class="grids">
+                        <!-- ICONS -->
+                        <div class="grid-3 center">
+                            <span class="icon">
+                                <img src="~/images/icons/24.png" alt="" />
+                            </span>
+                            <h4>100% for Free</h4>
+                            <p>It's free to sign up. Do it today.</p>
+                        </div>
+                        <div class="grid-3 center">
+                            <span class="icon">
+                                <img src="~/images/icons/10.png" alt="" />
+                            </span>
+                            <h4>Chat</h4>
+                            <p>Talk and get to know each lady.</p>
+                        </div>
+                        <div class="grid-3 center">
+                            <span class="icon">
+                                <img src="~/images/icons/22.png" alt="" />
+                            </span>
+                            <h4>No Fakes</h4>
+                            <p>Meet real women that looking for you.</p>
+                        </div>
+                        <div class="grid-3 center">
+                            <span class="icon">
+                                <img src="~/images/icons/2.png" alt="" />
+                            </span>
+                            <h4>It's Easy</h4>
+                            <p>SMade simple to sign up. </p>
+                        </div>
+                        <hr />
+                        <!-- TESTIMONIALS -->
+                        <div class="grid-12">
+                            <h4>Testimonials</h4>
+                            <blockquote>
+                                <img src="~/images/grid/t01.jpg" alt="" />
+                                <p>Number of members, allows you more control. Allows you access to their entire membership database. Any biographical information written must be approved.</p>
+                                <cite>&ndash; Client #1 (Testimonial #1)</cite>
+                            </blockquote>
+                            <blockquote>
+                                <img src="~/images/grid/t02.jpg" alt="" />
+                                <p>User-friendly and all of the bells and whistles are clearly explained. Lets him/her feel more comfortable about dating you by taking advantage of the many feature.</p>
+                                <cite>&ndash; Client #2 (Testimonial #2)</cite>
+                            </blockquote>
+                            <blockquote>
+                                <img src="~/images/grid/t03.jpg" alt="" />
+                                <p>Mobile Integration helps you often out and about and make it able to spend hours without being behind a computer trying to find love.</p>
+                                <cite>&ndash; Client #3 (Testimonial #3)</cite>
+                            </blockquote>
+                            <blockquote>
+                                <img src="~/images/grid/t04.jpg" alt="" />
+                                <p>You are able to type in specific keywords (interests or qualities) to get a list of users that match your criteria. This feature can make the online dating experience less frustrating.</p>
+                                <cite>&ndash; Client #4 (Testimonial #4)</cite>
+                            </blockquote>
+                        </div>
+                        <hr />
+                        <!-- ACCORDION -->
+                        <div class="grid-6">
+                            <h4 class="accordion-h4">Why Join?</h4>
+                            <div id="accordion">
+                                <h6>Free Brazilian/Latina Dating Site</h6>
+                                <div>
+                                    <p>Brasilbe2.com free dating site is an 100% free dating site for singles which offers free profiles, free chat, free messages, dating forum</p>
+                                </div>
+                                <h6>Free Personal Service</h6>
+                                <div>
+                                    <p>Welcome to our totally free personals service. Meet new like minded singles. All you need are credits which are totally free.</p>
+                                </div>
+                                <h6>Voice and Webcam Chat</h6>
+                                <div>
+                                    <p>Explore thousands of free online video chat rooms and meet millions of friendly ... Start a free video chat, voice or text group chat with anyone on any device</p>
+                                </div>
+                                <h6>No restrictions for International Dating</h6>
+                                <div>
+                                    <p>Unlike many other 'free' dating sites we allow you to communicate with all members without any restrictions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SLOGAN -->
+                        <div class="grid-6">
+                            <div class="slogan">Over 7000 New Relationships Created Everyday</div>
+                            <a class="ascensorLink ascensorLink1">
+                                <div class="slogan link">Register Now!</div>
+                            </a>
+                        </div>
+                        <div class="clear"></div>
+                        <!-- FOOTER -->
+                        <footer>
+                            <div class="grid-4">
+                                <a class="ascensorLink ascensorLink1">&uarr; Return to Homepage</a>&#124; All Rights Reserved
+                            </div>
+                            <div class="grid-8">
+                                <!-- social icons -->
+                                <ul class="social-icons">
+                                    <li>
+                                        <a href="#">
+                                            <img class="social-icon" src="~/images/social-icons/youtube-60.png" alt="YouTube" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="social-icon" src="~/images/social-icons/vimeo-60.png" alt="Vimeo" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="social-icon" src="~/images/social-icons/google-60.png" alt="Google Plus" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="social-icon" src="~/images/social-icons/twitter-60.png" alt="Twitter" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img class="social-icon" src="~/images/social-icons/facebook-60.png" alt="Facebook" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- JS FILES -->
+    <script src="~/Scripts/ascensor.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery-ui.js" type="text/javascript"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.gridrotator.js"></script>
+    <script src="~/Scripts/jquery.quovolver.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.backstretch.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.scrollbar.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.mousewheel.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.slabtext.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.placeholder.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/custom.js" type="text/javascript"></script>
+    <script type="text/javascript">
+            //ANIMATED RESPONSIVE IMAGE GRID SETTINGS
+            $(window).load(function() {
+
+                $('#ri-grid').gridrotator({
+                    rows: 5,
+                    columns: 8,
+                    maxStep: 2,
+                    interval: 4000,
+                    w1024: {
+                        rows: 6,
+                        columns: 5
+                    },
+                    w768: {
+                        rows: 6,
+                        columns: 4
+                    },
+                    w480: {
+                        rows: 7,
+                        columns: 3
+                    },
+                    w320: {
+                        rows: 7,
+                        columns: 2
+                    },
+                    w240: {
+                        rows: 7,
+                        columns: 2
+                    }
+                });
+
+            });
+    </script>
+    <!-- BACKGROUND IMAGES -->
+    <script type="text/javascript">
+            $("#ascensorFloor1").backstretch("images/bg-photo.jpg");
+            $("#ascensorFloor2").backstretch("images/bg-photo2.jpg");
+    </script>
+    
+    @*<script async="" src="//1sat.itocd.net/js/lib/require-2.0.6.min.js?5231856"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="api" src="//api.amolatina.com/v2/api.js?5231856"></script>
+    <iframe src="//amolatina.com/newbie.html" style="width:0;height:0;position:absolute;visibility:hidden;"></iframe>*@
+
+</body>
+
+</html>

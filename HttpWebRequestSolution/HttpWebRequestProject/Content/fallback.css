@@ -1,0 +1,19 @@
+﻿#ri-grid {
+	display:none;
+}
+.left-content {
+	display:none;
+}
+.right-content {
+	width:100%;
+}
+.info {
+	display:none;
+}
+.form_wrapper {
+	margin: auto auto auto 0px;
+}
+.details {
+	right:auto;
+	left:0px;
+}

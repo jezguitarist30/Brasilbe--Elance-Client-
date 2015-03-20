@@ -1,0 +1,137 @@
+﻿@media only screen and (max-height: 600px) 
+{
+    header h1
+{
+    padding-left:15px;
+    font-size:24px;
+    line-height:30px;
+    background-image:none;
+}
+.online-header h1
+{
+    font-size:20px;
+    line-height: 30px;
+}
+.form_wrapper h3{
+	font-size:14px;
+	padding:10px 15px 10px 15px;
+}
+.form_wrapper .bottom a
+{
+    font-size:10px;   
+}
+.form_wrapper .bottom span
+{
+    font-size:10px;    
+}
+.form_wrapper .linkform
+{
+    font-size:10px;      
+}
+.form_wrapper input[type="text"], .form_wrapper input[type="password"]
+    {
+        padding: 2px !important;
+        font-size:10px !important;
+    }
+ .form_wrapper input[type="submit"]
+    {
+        font-size: 12px !important;
+    } 
+    .details h3
+{
+    font-size:14px !important;
+    line-height:20px !important;    
+}  
+.ri-grid ul li p
+{
+    font-size: 10px;
+    line-height: 16px;
+}
+}
+
+@media only screen and (max-width: 640px) 
+{
+.left-content
+{
+    display:none;
+}
+.right-content
+{
+    width:100%;
+    float:left;
+}
+#ri-grid{display:none;}
+  .form_wrapper
+{
+    width: 100%;
+    top:30px;
+}
+.form_wrapper .column2{
+	width:100%;
+}
+    form.login
+{
+    width: 100%;
+}
+form.register
+{
+	width:100%;
+}
+form.forgot_password
+{
+	width:100%;
+}
+.form_wrapper a.forgot
+{
+    padding-right:30px;
+}
+.form_wrapper h3{
+	margin-bottom:20px;
+}
+.form_wrapper .bottom a
+{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.form_wrapper input[type="text"], .form_wrapper input[type="password"]
+    {
+        margin: 5px auto 20px auto !important;
+    }
+ .form_wrapper input[type="submit"]
+    {
+        width: 100% !important;
+        float: left !important;
+        margin: 0px !important;
+        -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+    display:inline-block;
+    }   
+.details
+{
+    animation-name:none;
+    -webkit-animation-name:none;
+    -moz-animation-name: none;
+    -o-animation-name: none;  
+    left:0px;
+    right:auto;   
+}
+.details h3
+{
+    float:left;
+}
+.slogan
+{
+    margin-bottom:30px;
+}
+}
+
+@media only screen and (max-height: 320px) 
+{
+#ascensorFloor1 {
+    overflow:auto !important;
+}
+
+
+}
